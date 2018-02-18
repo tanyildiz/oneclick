@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'home/login'
+
+  get 'home/admin'
+
+  get 'home/contact'
+
   get 'tags/create'
 
   get 'tags/new'
