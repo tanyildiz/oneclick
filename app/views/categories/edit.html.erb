@@ -1,2 +1,12 @@
-<h1>Categories#edit</h1>
-<p>Find me in app/views/categories/edit.html.erb</p>
+<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+
+	<%= form_for @category do |c| %>
+		
+		<%= c.label :name %><br />
+		<%= c.text_field :name, class:'form-control'%>
+
+		<%= c.submit 'UPDATE', class: 'btn btn-primary' %>
+
+	<% end %>
+
+</div>
