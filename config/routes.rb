@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'tags/create'
+
+  get 'tags/new'
+
+  get 'tags/edit'
+
+  get 'tags/update'
+
+  get 'tags/destroy'
+
+  get 'tags/show'
+
+  get 'tags/index'
+
   resources :homes
   get 'home/index'
 
